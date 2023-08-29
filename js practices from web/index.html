@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>light-bulb switch</title>
+    <style>
+      * {
+        background-color: darkslategray;
+      }
+      button {
+        border-radius: 25px;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Let there be light-bulb</h2>
+    <p>it's nice to see codes do crazy things beyond your noise</p>
+    <p>let go a little deeper sha.</p>
+    <div class="light">
+      <button
+        onclick="document.getElementById('mylight').src='./full power on.gif'"
+      >
+        power on
+      </button>
+      <img id="mylight" src="./off.gif" style="width: 150px" />
+      <button
+        onclick="document.getElementById('mylight').src='./bulboff-on-off.png'"
+      >
+        shut-down
+      </button>
+    </div>
+    <hr />
+  </body>
+</html>
